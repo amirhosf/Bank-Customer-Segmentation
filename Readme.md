@@ -163,8 +163,7 @@ Data Set
 An overview of statistics for the engineered data:
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image2.png){width="3.8569444444444443in"
-height="1.1423611111111112in"}
+generated](./media/image2.png){}
 
 5.  Preprocessing, Feature Extraction, Dimensionality Adjustment
     ------------------------------------------------------------
@@ -199,8 +198,7 @@ moment of the standardized moment.
 
 The skewness equation is as the following:
 
-![](./media/image4.png){width="3.3805555555555555in"
-height="0.5298611111111111in"}
+![](./media/image4.png){}
 
 To normalize the distribution of this data **Box Cox\[3\]** can be used
 which is a similar method to **Box Mueller** method for generation of
@@ -213,15 +211,13 @@ for an unknown set of data there's a lambda optimizer that can find the
 best value:
 
 ![A picture containing object Description automatically
-generated](./media/image5.png){width="1.8125in"
-height="0.5715277777777777in"}
+generated](./media/image5.png){}
 
 While this formula only works for the positive values Box proposed this
 formula to be able to handle negative valued data:
 
 ![A close up of a logo Description automatically
-generated](./media/image6.png){width="2.584722222222222in"
-height="0.7222222222222222in"}
+generated](./media/image6.png){}
 
 Moreover, we need to scale the data to achieve mean zero and variance 1
 for the distribution so we would have a standardized scaled model of the
@@ -230,15 +226,13 @@ data.
 The following Diagram is the distribution plot before applying
 standardization and box cox method.
 
-![](./media/image7.png){width="3.8645833333333335in"
-height="3.9493055555555556in"}
+![](./media/image7.png){}
 
 Figure 3. Histogram of Raw data
 
 And the following is after applying normalization and scaling the data:
 
-![](./media/image8.png){width="4.102777777777778in"
-height="4.124305555555556in"}
+![](./media/image8.png){}
 
 #### 
 
@@ -269,8 +263,7 @@ Theory plot) we decide the optimal number of plots. The plots are later
 shown ion the results section. The Following Equations Will help us
 better understand KL and Cross Entropy (CE):
 
-![](./media/image9.png){width="3.904861111111111in"
-height="2.5215277777777776in"}
+![](./media/image9.png){}
 
 Training Process
 ----------------
@@ -308,14 +301,12 @@ the mean square sum of the clusters. In the algorithm:
     Euclidian distance (l2 norm):
 
 > ![A picture containing object Description automatically
-> generated](./media/image10.png){width="3.5555555555555554in"
-> height="0.3402777777777778in"}
+> generated](./media/image10.png){}
 
 2.  Update each cluster by finding the new mean.
 
 > ![A close up of a clock Description automatically
-> generated](./media/image11.png){width="1.7777777777777777in"
-> height="0.53125in"}
+> generated](./media/image11.png){}
 
 After these steps we need a way to find the best number of clusters for
 K-Means clustering. Many people suggest using the elbow method in the
@@ -324,8 +315,7 @@ not an easy method however widely used.
 
 The following plot shows the inertia of the K-Means clustering.
 
-![](./media/image12.png){width="3.8409722222222222in"
-height="2.76875in"}
+![](./media/image12.png){}
 
 Figure 5. The Inertia plot for K-Means Clustering
 
@@ -362,8 +352,7 @@ identified.
 A Gaussian Mixture model is often consisting of ellipsoidal shapes and
 also the distribution has multiple bumps:
 
-![](./media/image15.png){width="3.658333333333333in"
-height="2.472916666666667in"}
+![](./media/image15.png){}
 
 Figure 8. Gaussian Mixture Model Example.
 
@@ -376,28 +365,24 @@ EM algorithm has two steps:
 
 E: Compute the best estimate the density of the data point
 
-![](./media/image16.png){width="1.6111111111111112in"
-height="0.5138888888888888in"}
+![](./media/image16.png){}
 
 M: Estimate the next parameter using maximum likelihood estimate (MLE).
 
-![](./media/image17.png){width="2.084722222222222in"
-height="0.5631944444444444in"}
+![](./media/image17.png){}
 
 Halt when posterior (*F*) converges.
 
 The following shows the result of GMM with EM applied.
 
-![](./media/image18.png){width="3.872916666666667in"
-height="2.7916666666666665in"}
+![](./media/image18.png){}
 
 Figure 9. The Clusters on Gaussian Mixture Model.
 
 To further analyze the data set under GMM I also plotted the ellipsoids
 of the contour plot.
 
-![](./media/image19.png){width="4.301388888888889in"
-height="3.1645833333333333in"}
+![](./media/image19.png){}
 
 Figure 10. The Contour on Gaussian Mixture Model.
 
@@ -437,8 +422,7 @@ ran the slow model on python and results on our data is as following.
 This algorithm just used Euclidian distance as similarity measure on
 nearest neighbor.
 
-![](./media/image20.png){width="3.5868055555555554in"
-height="2.9493055555555556in"}
+![](./media/image20.png){}
 
 Figure 11. Agglomerative clustering with single linkage with the time it
 took to run on bottom right.
@@ -452,13 +436,11 @@ In average distance, the average of the sum of Euclidian distance
 between groups of data is measured:
 
 ![A close up of a clock Description automatically
-generated](./media/image21.png){width="1.9125in"
-height="0.5152777777777777in"}
+generated](./media/image21.png){}
 
 The resulting plot of the clustering algorithm is as following:
 
-![](./media/image22.png){width="3.261111111111111in"
-height="2.3513888888888888in"}
+![](./media/image22.png){}
 
 Figure 12. Agglomerative clustering with average distance linkage with
 the time it took to run on bottom right
@@ -467,14 +449,12 @@ the time it took to run on bottom right
 
 This algorithm uses the maximum distance between two points in clusters:
 
-![](./media/image23.png){width="1.4916666666666667in"
-height="0.4013888888888889in"}
+![](./media/image23.png){}
 
 The resulting plot for clustering with this algorithm is as following.
 This algorithm is particularly good for chunks of data.
 
-![](./media/image24.png){width="3.420138888888889in"
-height="2.4652777777777777in"}
+![](./media/image24.png){}
 
 Figure 13. Agglomerative clustering with Complete distance linkage with
 the time it took to run on bottom right
@@ -485,13 +465,11 @@ This dissimilarity measure will minimize the variance between two
 clusters of data.
 
 ![A picture containing object Description automatically
-generated](./media/image25.png){width="2.142361111111111in"
-height="0.3347222222222222in"}
+generated](./media/image25.png){}
 
 The resulting clustering diagram is as following:
 
-![](./media/image26.png){width="3.8569444444444443in"
-height="2.7805555555555554in"}
+![](./media/image26.png){}
 
 Figure 13. Agglomerative clustering with Complete distance linkage with
 the time it took to run on bottom right
@@ -516,8 +494,7 @@ HDBSCAN algorithm:
 
 1.  Find the most dance area of data using core distance.
 
-> ![](./media/image27.png){width="2.611111111111111in"
-> height="0.2951388888888889in"}
+> ![](./media/image27.png){}
 
 2.  Keep building dance clusters to min cluster size.
 
@@ -549,8 +526,7 @@ is the point we want.
 With the resulting parameter we create 4 clusters with the following
 diagram:
 
-![](./media/image29.png){width="4.952083333333333in"
-height="4.958333333333333in"}
+![](./media/image29.png){}
 
 Figure 15. The resulting clusters for HDBSCAN.
 
