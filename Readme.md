@@ -168,8 +168,7 @@ generated](./media/image2.png){}
 5.  Preprocessing, Feature Extraction, Dimensionality Adjustment
     ------------------------------------------------------------
 
-    ![](./media/image3.png){width="7.04375in"
-    height="4.253472222222222in"}
+    ![](./media/image3.png){}
 
     Figure 2. Correlation Plot for useful features.
 
