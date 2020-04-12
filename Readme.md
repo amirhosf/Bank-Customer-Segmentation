@@ -130,8 +130,7 @@ Implementation
 > comparison.
 >
 > ![A close up of a map Description automatically
-> generated](./media/image1.jpeg){width="4.4840277777777775in"
-> height="6.628472222222222in"}
+> generated](./media/image1.jpeg){}
 >
 > Figure 1. The Flowchart for Clustering the Data
 
