@@ -350,7 +350,7 @@ identified.
 A Gaussian Mixture model is often consisting of ellipsoidal shapes and
 also the distribution has multiple bumps:
 
-![](./media/image15.png){}
+![](./media/image15.png)
 
 Figure 8. Gaussian Mixture Model Example.
 
@@ -363,24 +363,24 @@ EM algorithm has two steps:
 
 E: Compute the best estimate the density of the data point
 
-![](./media/image16.png){}
+![](./media/image16.png)
 
 M: Estimate the next parameter using maximum likelihood estimate (MLE).
 
-![](./media/image17.png){}
+![](./media/image17.png)
 
 Halt when posterior (*F*) converges.
 
 The following shows the result of GMM with EM applied.
 
-![](./media/image18.png){}
+![](./media/image18.png)
 
 Figure 9. The Clusters on Gaussian Mixture Model.
 
 To further analyze the data set under GMM I also plotted the ellipsoids
 of the contour plot.
 
-![](./media/image19.png){}
+![](./media/image19.png)
 
 Figure 10. The Contour on Gaussian Mixture Model.
 
@@ -492,7 +492,7 @@ HDBSCAN algorithm:
 
 1.  Find the most dance area of data using core distance.
 
-> ![](./media/image27.png){}
+> ![](./media/image27.png)
 
 2.  Keep building dance clusters to min cluster size.
 
@@ -513,8 +513,7 @@ optimized min cluster size and pick a point where the probability
 converges:
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image28.png){width="3.642361111111111in"
-height="2.7125in"}
+generated](./media/image28.png)
 
 Figure 14. The sum score vs min cluster size of HDBSCAN.
 
@@ -524,7 +523,7 @@ is the point we want.
 With the resulting parameter we create 4 clusters with the following
 diagram:
 
-![](./media/image29.png){}
+![](./media/image29.png)
 
 Figure 15. The resulting clusters for HDBSCAN.
 
