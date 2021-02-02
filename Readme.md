@@ -1,4 +1,4 @@
-Table of Contents {#table-of-contents .ContentsHeading}
+Table of Contents 
 =================
 
 [1.Abstract 3](#abstract)
@@ -130,7 +130,7 @@ Implementation
 > comparison.
 >
 > ![A close up of a map Description automatically
-> generated](./media/image1.jpeg){}
+> generated](./media/image1.jpeg)
 >
 > Figure 1. The Flowchart for Clustering the Data
 
@@ -163,12 +163,12 @@ Data Set
 An overview of statistics for the engineered data:
 
 ![A screenshot of a cell phone Description automatically
-generated](./media/image2.png){}
+generated](./media/image2.png)
 
 5.  Preprocessing, Feature Extraction, Dimensionality Adjustment
     ------------------------------------------------------------
 
-    ![](./media/image3.png){}
+    ![](./media/image3.png)
 
     Figure 2. Correlation Plot for useful features.
 
@@ -210,13 +210,13 @@ for an unknown set of data there's a lambda optimizer that can find the
 best value:
 
 ![A picture containing object Description automatically
-generated](./media/image5.png){}
+generated](./media/image5.png)
 
 While this formula only works for the positive values Box proposed this
 formula to be able to handle negative valued data:
 
 ![A close up of a logo Description automatically
-generated](./media/image6.png){}
+generated](./media/image6.png)
 
 Moreover, we need to scale the data to achieve mean zero and variance 1
 for the distribution so we would have a standardized scaled model of the
@@ -225,13 +225,13 @@ data.
 The following Diagram is the distribution plot before applying
 standardization and box cox method.
 
-![](./media/image7.png){}
+![](./media/image7.png)
 
 Figure 3. Histogram of Raw data
 
 And the following is after applying normalization and scaling the data:
 
-![](./media/image8.png){}
+![](./media/image8.png)
 
 #### 
 
@@ -262,7 +262,7 @@ Theory plot) we decide the optimal number of plots. The plots are later
 shown ion the results section. The Following Equations Will help us
 better understand KL and Cross Entropy (CE):
 
-![](./media/image9.png){}
+![](./media/image9.png)
 
 Training Process
 ----------------
@@ -300,12 +300,12 @@ the mean square sum of the clusters. In the algorithm:
     Euclidian distance (l2 norm):
 
 > ![A picture containing object Description automatically
-> generated](./media/image10.png){}
+> generated](./media/image10.png)
 
 2.  Update each cluster by finding the new mean.
 
 > ![A close up of a clock Description automatically
-> generated](./media/image11.png){}
+> generated](./media/image11.png)
 
 After these steps we need a way to find the best number of clusters for
 K-Means clustering. Many people suggest using the elbow method in the
@@ -325,8 +325,7 @@ following
 
 plot shows the result of clustering:
 
-![](./media/image13.png){width="5.1506944444444445in"
-height="5.263888888888889in"}
+![](./media/image13.png)
 
 As can be seen both of
 
@@ -336,7 +335,7 @@ The figure shows all data points being successfully partitioned. The
 Clustering is done by creating circular distance measures (l2) norm the
 following diagram shows those circles with the data.
 
-![](./media/image14.png){width="3.372916666666667in" height="2.48125in"}
+![](./media/image14.png)
 
 Figure 7. K-Means Clusters with 4 cluster boundaries (circles).
 
